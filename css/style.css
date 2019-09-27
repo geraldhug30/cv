@@ -231,8 +231,8 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 7em 0;
 }
 #fh5co-features .feature-left {
-  margin-bottom: 40px;
-  float: left;
+  
+  margin: 20 auto;
 }
 @media screen and (max-width: 992px) {
   #fh5co-features .feature-left {
@@ -722,7 +722,7 @@ h1, h2, h3, h4, h5, h6, figure {
     height: 400px;
   }
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .work {
     height: 270px;
   }
@@ -753,7 +753,7 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transform: translate3d(0, 15px, 0);
   transform: translate3d(0, 15px, 0);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 999px) {
   .work .desc {
     opacity: 1;
     background: rgba(255, 255, 255, 0.6);
